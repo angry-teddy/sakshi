@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <title>Welcome to my world|Home</title>
+   <link rel="stylesheet" href="style.css">
+   <style>
+       h1{
+           text-align: center;
+           
+       }
+   </style>
+    <style>
+        h2{
+            color: rgb(20, 205, 218);
+            font-family:'Dancing Script', 'Arial Narrow', Arial, sans-serif ;
+              text-align:center ;
+              font-size: 40px;
+        }
+        .background{
+            background:#000 url(backgrnd    .jpg) repeat;
+           
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="background-color: rgb(18, 223, 223);">Welcome To The World Of Music</h1>
+        
+  
+    </header> 
+    <nav>
+       
+        <a href="#">Romantic Songs</a>
+        <a href="#">Sad songs</a>
+        <a href="#">Party songs</a>
+        <a href="#">Mash up</a>
+       
+    </nav>
+    <main>
+        <div class="background">
+        <section>
+            <h2>Romantic Songs</h2> 
+            <video src="romantic/Jane meriye.mp4"width="33%"controls></video>
+            <video src="romantic/ruseya na kr.mp4"width="33%"controls></video>
+            <video src="romantic/Walian.mp4"width="33%"controls></video>
+            <video src="romantic/Yaari - Nikk - Sharry Maan (Official Song) - Rox A - New Punjabi Songs 2019.webm"width="33%"controls></video>
+            <video src="romantic/Gal Karke (Official Video) Inder Chahal - Babbu - Rajat Nagpal - New Punjabi Songs 2019.webm"width="33%"controls></video>
+            
+         </section>
+         <section>
+             <h2>Sad songs</h2>
+             <video src="Sad/Dil Tutda.mp4"width="33%"controls></video>
+             <video src="Sad/faiyda na le.mp4"width="33%"controls></video>
+             <video src="Sad/Dholna.webm"width="33%"controls></video>
+             
+
+         </section>
+         <section>
+             <h2>Party Songs</h2>
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/ZSNnoMDOgFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  
+            </section>
+         </div>
+    </main>
+    <footer>
+        <a href="#">FAQ</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="#">Contact Us</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="#">Terms of use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="#">@2021|Music</a>
+
+    </footer>
+</body>
+</html>
